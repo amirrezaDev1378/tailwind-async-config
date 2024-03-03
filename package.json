@@ -2,7 +2,16 @@
   "name": "tailwind-async-config",
   "type": "commonjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use an async function to generate your Tailwind CSS config.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirrezaDev1378/tailwind-async-config"
+  },
+  "bugs": {
+    "url": "https://github.com/amirrezaDev1378/tailwind-async-config/issues/new"
+  },
+  "homepage": "https://github.com/amirrezaDev1378/tailwind-async-config",
+
   "main": "dist/src/index.js",
   "exports": {
     "types": "./types/index.ts",
@@ -10,11 +19,22 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "dev": "cd example && tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
+    "run-example": "cd example && tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tailwind-async-config",
+    "tailwindcss",
+    "async",
+    "config",
+    "tailwind",
+    "css",
+    "async-config"
+  ],
+  "author": {
+    "name": "Amirreza Hossein Panah",
+    "email": "rezaamir731@gmail.com"
+  },
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/bun": "^1.0.8",
     "@types/node": "^20.11.24",
