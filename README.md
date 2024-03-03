@@ -32,7 +32,7 @@
     
     module.exports = MyAsyncConfig;
     ```
-  * Use your file in your tailwind.config.js
+* Use your file in your tailwind.config.js
   ```javascript
         const TailwindAsyncConfig = require("../dist/src/index").default;
     /** @type {import('tailwindcss').Config} */
