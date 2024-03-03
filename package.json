@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-async-config",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "exports": {
+    "types": "./types/index.ts",
+    "require": "./dist/src/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "cd example && tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3",
+    "tailwindcss": "^3.4.1"
+  }
+}
