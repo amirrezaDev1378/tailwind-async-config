@@ -45,10 +45,12 @@
             plugins: [],
         }
   ```
-  * That's it, now you can run your project
-    ```bash
-        npx tailwindcss -i ./src/styles.css -o ./dist/styles.css
-    ```
+* If you are using Bun, you must set the useBun option to true, and you must use es module in your async config file.
+* now you can run your project
+  ```bash
+      npx tailwindcss -i ./src/styles.css -o ./dist/styles.css
+  ```
+* there is an example at [example](https://github.com/amirrezaDev1378/tailwind-async-config/tree/master/example)
 
 ## Options:
 
