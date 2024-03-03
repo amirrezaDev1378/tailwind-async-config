@@ -34,7 +34,7 @@
     ```
 * Use your file in your tailwind.config.js
   ```javascript
-        const TailwindAsyncConfig = require("../dist/src/index").default;
+        const TailwindAsyncConfig = require("tailwind-async-config").default;
     /** @type {import('tailwindcss').Config} */
         module.exports = {
             content: ["index.html"],
